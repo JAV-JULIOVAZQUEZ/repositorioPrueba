@@ -1,0 +1,34 @@
+S1GBS055
+P1A^N50Q^OLD
+P1A^AUTH^PROD
+$MICKEY.CATM018.NCR5
+
+Comentario de pruebas realizadas en el S1JBS038 CINEO 4040 MV ATM:
+
+Depósito de 2x100+2x500=$1200
+
+1) RECICLA: S con grupo de carga 2460504000 Prod
+
+-DESAPARECE BOTON EXTRACCION. Los billetes van al hopper esperado (RECICLADO).
+
+2) RECICLA: N con grupo de carga 2460504000 Prod
+
+-DESAPARECE BOTON EXTRACCION.
+-SE GRISA BOTON DEPOSITO.
+
+
+
+
+Comentario de pruebas realizadas en el ATM S1JBS998 CINEO 4040 P21:
+ 
+Depósito de 2x100+2x500=$1200
+
+1) RECICLA: S con grupo de carga 2460504000 Prod
+ 
+-DESAPARECE BOTON EXTRACCION. Los billetes van al hopper esperado.
+ 
+2) RECICLA: N con grupo de carga 2460504000 Prod
+ 
+-DESAPARECE BOTON EXTRACCION. Los billetes NO van al hopper esperado (van al RECICLADO).
+
+Aumenta contador pagina 11 y no se la 4.
